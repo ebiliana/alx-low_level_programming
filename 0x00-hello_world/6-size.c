@@ -18,9 +18,15 @@ int main(void)
 
 	double d;
 
-	printf("The size of an in is: %lu.\n", (unsigned long)sizeof(a));
-	printf("Size of a char: %lu.\n", (unsigned long)sizeof(b));
-	printf("Size of a float: %lu.\n", (unsigned long)sizeof(c));
-	printf("Size of a double: %lu.\n", (unsigned long)sizeof(d));
+	long int e;
+	
+	long long int f;
+
+	printf("The size of an in is: %lu byte(s).\n", (unsigned long)sizeof(a));
+	printf("Size of a char: %lu byte(s).\n", (unsigned long)sizeof(b));
+	printf("Size of a float: %lu byte(s).\n", (unsigned long)sizeof(c));
+	printf("Size of a double: %lu byte(s).\n", (unsigned long)sizeof(d));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 	return (0);
 }
